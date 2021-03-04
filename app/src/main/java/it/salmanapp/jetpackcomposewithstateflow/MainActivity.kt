@@ -107,7 +107,7 @@ class MainActivity : AppCompatActivity() {
         @Preview
         fun ItemCreation() {
             val name = remember { mutableStateOf(TextFieldValue()) }
-            val price = remember { mutableStateOf(0.0F) }
+            val value = remember { mutableStateOf(0.0F) }
 
 
             Column(modifier = Modifier
@@ -122,13 +122,13 @@ class MainActivity : AppCompatActivity() {
                     placeholder = { Text("Item Name") },
                 )
 
-                Slider(value = price.value,
-                    onValueChange = { price.value = it },
+                Slider(value = value.value,
+                    onValueChange = { value.value = it },
                     valueRange = 0f..50f)
 
                 Button(onClick = {
                     viewModel.addObject(Item(name.value.text,
-                        price.value.toDouble()))
+                        value.value.toDouble()))
                 },
                     modifier = Modifier
                         .fillMaxWidth()
@@ -141,7 +141,7 @@ class MainActivity : AppCompatActivity() {
 
         @Preview
         @Composable
-        fun InfoCard(name: String = "name", price: Float = 0.0F, image: String = "") {
+        fun InfoCard(name: String = "name", value: Float = 0.0F, image: String = "") {
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -163,7 +163,7 @@ class MainActivity : AppCompatActivity() {
                             .clip(shape = CircleShape)
                     )
                     Text(name, style = typography.body2, fontWeight = FontWeight.Light)
-                    Text(price.roundToInt().toString(),
+                    Text(value.roundToInt().toString(),
                         style = typography.body1,
                         fontWeight = FontWeight.Bold)
                 }
@@ -177,7 +177,7 @@ class MainActivity : AppCompatActivity() {
                 LazyColumn {
                     items(itemsList) { i ->
                         InfoCard(name = i.name,
-                            price = i.price.toFloat(),
+                            value = i.value.toFloat(),
                             image = "https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png")
                         Spacer(Modifier.requiredHeight(32.dp))
                     }
