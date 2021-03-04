@@ -12,6 +12,7 @@ import kotlin.random.Random
 
 class MainViewModel:ViewModel() {
 
+
     private val _homeState = MutableStateFlow<HomeState>(HomeState.Empty)
     val homeState:StateFlow<HomeState> = _homeState
     private var _items = mutableListOf<Item>()
@@ -44,6 +45,5 @@ class MainViewModel:ViewModel() {
         data class Error(val message:String, val items:List<Item>):HomeState()
         object Loading:HomeState()
         object Empty:HomeState()
-
     }
 }
