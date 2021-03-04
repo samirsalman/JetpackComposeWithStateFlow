@@ -75,14 +75,13 @@ fun AppBody(homeState: MainViewModel.HomeState) {
 
 ## App Screenshots
 
-![image](https://user-images.githubusercontent.com/33979978/109961982-f506ff00-7cea-11eb-85b7-db2aa1770481.png)
 
-![image](https://user-images.githubusercontent.com/33979978/109961998-fa644980-7cea-11eb-8c23-bac39cdc70a5.png)
-
-![image](https://user-images.githubusercontent.com/33979978/109962144-22ec4380-7ceb-11eb-9203-1364c8c7d430.png)
-
-![image](https://user-images.githubusercontent.com/33979978/109962168-28e22480-7ceb-11eb-87ac-9c65539d0869.png)
+| | | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="s1" src="https://user-images.githubusercontent.com/33979978/109961982-f506ff00-7cea-11eb-85b7-db2aa1770481.png"> |  <img width="1604" alt="s2" src="https://user-images.githubusercontent.com/33979978/109961998-fa644980-7cea-11eb-8c23-bac39cdc70a5.png">|<img width="1604" alt="s3" src="https://user-images.githubusercontent.com/33979978/109962144-22ec4380-7ceb-11eb-9203-1364c8c7d430.png">|<img width="1604" alt="s4" src="https://user-images.githubusercontent.com/33979978/109962168-28e22480-7ceb-11eb-87ac-9c65539d0869.png">| 
 
 
 
+## Contributor
 
+Samir Salman
