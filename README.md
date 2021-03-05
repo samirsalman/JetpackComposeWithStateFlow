@@ -81,6 +81,31 @@ fun AppBody(homeState: MainViewModel.HomeState) {
 |<img width="1604" alt="s1" src="https://user-images.githubusercontent.com/33979978/109961982-f506ff00-7cea-11eb-85b7-db2aa1770481.png"> |  <img width="1604" alt="s2" src="https://user-images.githubusercontent.com/33979978/109961998-fa644980-7cea-11eb-8c23-bac39cdc70a5.png">|<img width="1604" alt="s3" src="https://user-images.githubusercontent.com/33979978/109962144-22ec4380-7ceb-11eb-9203-1364c8c7d430.png">|<img width="1604" alt="s4" src="https://user-images.githubusercontent.com/33979978/109962168-28e22480-7ceb-11eb-87ac-9c65539d0869.png">| 
 
 
+## License
+
+```
+MIT License
+
+Copyright (c) 2021 Samir
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
 ## Contributor
 
